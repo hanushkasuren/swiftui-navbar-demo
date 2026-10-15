@@ -16,23 +16,8 @@ Four screens, each isolating one part of the pattern.
 
 ## Run it
 
-This project is set up for XcodeGen, a tool that turns a plain YAML file into a real Xcode project.
-
-1. Install XcodeGen once, with Homebrew.
-
-   brew install xcodegen
-
-2. From this folder, generate the project.
-
-   xcodegen generate
-
-3. Open it.
-
-   open NavBarDemo.xcodeproj
-
-4. Pick an iOS 26 simulator, for example iPhone 16 Pro, and run.
-
-If you would rather not install XcodeGen, create a new Xcode project named NavBarDemo, iOS App, SwiftUI, Swift, delete its generated ContentView.swift, replace its generated NavBarDemoApp.swift with the one in Sources/NavBarDemo, and add the remaining files from that folder. Set the deployment target to iOS 26.
+1. Clone the repo and open `NavBarDemo.xcodeproj`.
+2. Pick an iOS 26 simulator, for example iPhone 16 Pro, and run with Cmd+R.
 
 ## What each screen shows
 
